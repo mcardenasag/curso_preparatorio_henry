@@ -142,6 +142,14 @@ console.log(masUno);
 
 // Bucles o ciclos en los arreglos. 
 
+//Bucle For
+
+//Crea un bucle que consiste en tres expresiones opcionales, encerradas en paréntesis y separadas por puntos y comas, seguidas de una sentencia ejecutada en un bucle.
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/for
+
+
+
 var arr = [1, 2, 3, 4, 5, 6];
 
 for(var i=0;  i < arr.length; i++ ){
@@ -161,6 +169,11 @@ function encontrarLetraP(String){
     }
 }
 
+//Bucle While
+
+//Crea un bucle que ejecuta una sentencia especificada mientras cierta condición se evalúe como verdadera. Dicha condición es evaluada antes de ejecutar la sentencia.
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/while
 
 var ar = [];
 
@@ -173,3 +186,9 @@ console.log(ar);
 
 encontrarLetraP('Papá y Mamá');
 encontrarLetraP('Gracias Dios por todo');
+
+//Bucle infinito
+
+//Esto no es un nuevo tipo de bucle, sino algo que se puede producir en los que ya aprendimos. Un bucle infinito se produce cuando un bucle comienza a ejecutarse, pero jamás termina. Esto se debe a que nunca se llega a la condición de quiebre.
+
+//Esto consume muchos recursos de la computadora, por lo que hay que intentar evitarlos. 
