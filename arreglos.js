@@ -138,3 +138,38 @@ console.log(masUno);
 // en la siguiente pagina podremos encontrar mas metodos q pueden utilizarce en los Array. 
 
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+// Bucles o ciclos en los arreglos. 
+
+var arr = [1, 2, 3, 4, 5, 6];
+
+for(var i=0;  i < arr.length; i++ ){
+    console.log(arr[i]);
+}
+
+//Encontrar letra P
+
+function encontrarLetraP(String){
+
+    var letras = String.split("");
+
+    for(let i=0; i < letras.length; i++){
+        if(letras[i] === 'p'){
+            console.log('Si contiene a P');
+        } 
+    }
+}
+
+
+var ar = [];
+
+while(ar.length < 5){
+    
+    ar.push('Boom');
+}
+
+console.log(ar);
+
+encontrarLetraP('Papá y Mamá');
+encontrarLetraP('Gracias Dios por todo');
